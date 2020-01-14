@@ -1,0 +1,18 @@
+.flex-form-inline .el-form-item {
+  display: flex;
+}
+.flex-form-inline ::v-deep .el-input--small {
+  float: left;
+}
+.flex-form-inline ::v-deep .el-form-item .el-form-item__content {
+  flex: 1;
+}
+.flex-form-inline .el-form-item__content .el-select {
+  width: 100%;
+}
+.flex-form-inline .el-form-item__content .el-date-editor {
+  width: 100%;
+}
+.flex-form-inline ::v-deep .el-date-editor .el-range-separator {
+  min-width:  20px;
+}
